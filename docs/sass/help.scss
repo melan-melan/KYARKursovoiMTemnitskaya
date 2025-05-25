@@ -1,0 +1,84 @@
+@import "variables";
+@import "mixins";
+
+// Accordion
+.accordion {
+  max-width: 1200px;
+  margin: 1rem auto;
+  min-height: 70vh;
+
+  .accordion-item {
+    border: 1px solid $color-border;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    .accordion-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: $color-background-light;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &.active {
+        background-color: darken($color-background-light, 5%);
+      }
+
+      &.active + .accordion-content {
+        max-height: 900px;
+        padding: 10px;
+      }
+    }
+
+    .accordion-content {
+      font-family: "Nunito", sans-serif;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease, padding 0.5s ease;
+      background-color: $color-background-light;
+      color: $color-text;
+      ol {
+        list-style-type: decimal;
+        padding: 0.5rem 0rem 0.5rem 3rem;
+      }
+
+      p {
+        padding: 10px 10px 10px 50px;
+      }
+    }
+
+    .toggle-button {
+      width: 30px;
+      height: 30px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease;
+    }
+
+    .accordion-header.active .toggle-button {
+      transform: rotate(180deg);
+    }
+  }
+}
+@media (min-width: 769px) {
+  .accordion-content {
+    font-size:large;
+  }
+}
+@media (max-width: 768px) {
+  .accordion-content {
+    font-size:medium;
+  }
+}
+@media (max-width: 480px) {
+  .accordion-content {
+    font-size:small;
+  }
+}

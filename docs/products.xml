@@ -1,0 +1,303 @@
+<items>
+  <item>
+    <name>Костюм Aggressive Category</name>
+    <type>Костюмы</type>
+    <price>119.99</price>
+    <images>
+      <image>photos/product/costumeAgressiveCategory2.png</image>
+      <image>photos/product/costumeAgressiveCategory1.png</image>
+      <image>photos/product/costumeAgressiveCategory3.png</image>
+      <image>photos/product/costumeAgressiveCategory4.png</image>
+    </images>
+    <description>Черный спортивный костюм (худи на молнии и брюки) с вышивкой "Aggressive Category" красной нитью. Удобный и стильный для повседневной носки.</description>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+      <size>XXL</size>
+    </sizes>
+    <colors>
+      <color>Черный</color>
+    </colors>
+  </item>
+
+  <item>
+    <name>Костюм DarkVarrior</name>
+    <type>Костюмы</type>
+    <price>89.99</price>
+    <images>
+      <image>photos/product/costumeDarkVarrior1.png</image>
+      <image>photos/product/costumeDarkVarrior2.png</image>
+    </images>
+    <description>Спортивный костюм с длинным рукавом и брюками. Идеально подходит для тренировок и повседневной носки.</description>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <colors>
+      <color>Черный</color>
+    </colors>
+  </item>
+
+
+
+  <item>
+    <name>Летний комплект Fight Fit</name>
+    <type>Футболки</type>
+    <price>89.99</price>
+    <images>
+      <image>photos/product/summerCostumeGreenBeige1.png</image>
+      <image>photos/product/summerCostumeGreenBeige2.png</image>
+    </images>
+    <description>Спортивный летний комплект с логотипом "FIGHT PIT". Идеален для тренировок и активного отдыха.</description>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <colors>
+      <color>Бежевый</color>
+      <color>Зеленый</color>
+    </colors>
+  </item>
+  <item>
+<name>Лонгслив Muay Thai Blitz Fighter Team</name>
+
+<type>Футболки</type>
+
+<price>64.99</price>
+
+<images>
+
+<image>photos/product/longsleeveMyaiThai1BlackRed2.png</image>
+
+<image>photos/product/longsleeveMyaiThai1BlackRed1.png</image>
+
+<image>photos/product/longsleeveMyaiThai1BlackRed3.png</image>
+
+<image>photos/product/longsleeveMyaiThai1BlackWhite1.png</image>
+
+<image>photos/product/longsleeveMyaiThai1BlackWhite1.png</image>
+
+<image>photos/product/longsleeveMyaiThaiRedWhite1.png</image>
+
+<image>photos/product/longsleeveMyaiThaiRedWhite2.png</image>
+
+</images>
+
+<description>Черный лонгслив с красным принтом "Muay Thai Blitz Fighter Team" на спине. Дизайн включает тайские иероглифы и изображение бойца. Рукава с контрастными надписями. Удобная повседневная модель из хлопка с добавлением полиэстера.
+
+</description>
+
+<sizes>
+
+<size>S</size>
+
+<size>M</size>
+
+<size>L</size>
+
+<size>XL</size>
+
+<size>XXL</size>
+
+</sizes>
+
+<colors>
+
+<color>Черный/красный</color>
+
+<color>Черный/белый</color>
+
+<color>Красный/белый</color>
+
+</colors>
+
+</item>
+
+
+  <item>
+    <name>Шапка Aggressive Category</name>
+    <type>Аксессуары</type>
+    <price>39.99</price>
+    <images>
+      <image>photos/product/redHat.jpg</image>
+      <image>photos/product/yellowHat.jpg</image>
+    </images>
+    <description>Красная шапка-бини с черной нашивкой "Aggressive Category". Унисекс модель.</description>
+    <sizes>
+      <size>one size</size>
+    </sizes>
+    <colors>
+      <color>Красный</color>
+      <color>Желтый</color>
+    </colors>
+  </item>
+
+
+  <item>
+    <name>Костюм Fight Fit</name>
+    <type>Костюмы</type>
+    <price>119.99</price>
+    <images>
+      <image>photos/product/costumeFightFitBlack1.png</image>
+      <image>photos/product/costumeFightFitBlack2.png</image>
+      <image>photos/product/costumeFightFitBlack3.png</image>
+    </images>
+    <description>Черно-серый спортивный костюм с принтом "FIGHT FIGHTER WEAR". Удобный крой, подходит для тренировок.</description>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+      <size>XXL</size>
+    </sizes>
+    <colors>
+      <color>Черный/серый</color>
+    </colors>
+  </item>
+
+  <item>
+    <name>Костюм Muay Thai</name>
+    <type>Костюмы</type>
+    <price>129.99</price>
+    <images>
+      <image>photos/product/costumMyaiThai1.jpg</image>
+      <image>photos/product/costumMyaiThai2.jpg</image>
+    </images>
+    <description>Спортивный костюм с красным принтом "Muay Thai". Удобный и стильный для тренировок.</description>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+      <size>XXL</size>
+    </sizes>
+    <colors>
+      <color>Черный</color>
+    </colors>
+  </item>
+
+  <item>
+    <name>Футболка Kyokushin Samurai</name>
+    <type>Футболки</type>
+    <price>59.99</price>
+    <images>
+      <image>photos/product/synteticThirtKyokushin1.png</image>
+      <image>photos/product/synteticThirtKyokushin2.png</image>
+    </images>
+    <description>Черная футболка с эффектным дизайном в стиле самурая. Хлопковый материал для комфортной носки.</description>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+      <size>XXL</size>
+    </sizes>
+    <colors>
+      <color>Черный</color>
+    </colors>
+  </item>
+
+  <item>
+    <name>Футболка хлопок Kyokushin Samurai</name>
+    <type>Футболки</type>
+    <price>59.99</price>
+    <images>
+      <image>photos/product/ThirtKyokushinSamurai1.png</image>
+      <image>photos/product/ThirtKyokushinSamurai2.png</image>
+    </images>
+    <description>Футболка с крутым дизайном самурая и японскими иероглифами. Стильный уличный принт.</description>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <colors>
+      <color>Черный</color>
+    </colors>
+  </item>
+
+  <item>
+    <name>Кожаные брелоки</name>
+    <type>Аксессуары</type>
+    <price>19.99</price>
+    <images>
+      <image>photos/product/keuchainsKarateMyaiThai.png</image>
+    </images>
+    <description>Кожаные брелоки с гравировкой единоборств. Доступны варианты с надписями.</description>
+    <sizes>
+      <size>one size</size>
+    </sizes>
+    <colors>
+      <color>KYOKUSHIN</color>
+      <color>BOXING</color>
+      <color>MUAY THAI</color>
+      <color>MMA</color>
+    </colors>
+  </item>
+
+  <item>
+    <name>Ароматизатор KYOKUSHIN</name>
+    <type>Аксессуары</type>
+    <price>9.99</price>
+    <images>
+      <image>photos/product/smellincarKarate1.png</image>
+      <image>photos/product/smellincarKarate2.png</image>
+    </images>
+    <description>Ароматизатор для машины с дизайном в стиле кимоно.</description>
+    <sizes>
+      <size>one size</size>
+    </sizes>
+    <colors>
+      <color>Кимоно</color>
+      <color>Иероглиф</color>
+    </colors>
+  </item>
+<item>
+  <name>Спортивный костюм Urban Fighter </name>
+
+<type>Одежда</type>
+
+<price>94.99</price>
+
+<images>
+
+<image>photos/product/summerCostumewithpantsGray1.png</image>
+
+<image>photos/product/summerCostumewithpantsBlack1.png</image>
+
+<image>photos/product/summerCostumewithpantsGray2.png</image>
+
+</images>
+
+<description>Серый спортивный комплект из футболки и брюк с контрастными белыми полосами по рукавам и бокам. Удобный крой, дышащий материал. Идеален для тренировок и повседневной носки. Унисекс модель.</description>
+
+<sizes>
+
+<size>S</size>
+
+<size>M</size>
+
+<size>L</size>
+
+<size>XL</size>
+
+</sizes>
+
+<colors>
+
+<color>Серый</color>
+
+<color>Черный</color>
+
+</colors>
+
+</item>
+
+</items>

@@ -1,0 +1,86 @@
+@import "variables";
+
+// Миксины
+@mixin button-style {
+  background-color: $color-button;
+  border: none;
+  border-radius: 8px; // Slightly increased radius for a softer look
+  color: $color-text;
+  text-decoration: none;
+  font-size: 1rem; // Base font size
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s; // Added shadow transition
+  padding: 0.5rem 1rem; // Increased horizontal padding for a more substantial feel // Subtle shadow for depth
+  display: inline-block; // Ensures the button respects padding and margins
+
+  &:hover {
+    background-color: $color-button-hover;
+  }
+
+  // Responsive styles
+  @media (max-width: 768px) {
+    font-size: 0.9rem; // Slightly smaller on mobile
+    padding: 0.4rem 0.8rem; // Adjust padding for smaller screens
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.8rem; // Even smaller for very small screens
+    padding: 0.3rem 0.6rem; // Further adjust padding
+  }
+}
+
+@mixin card-style {
+  background: $color-background-light;
+  border: 1px solid $color-border;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+@mixin select-style {
+  padding: 1rem 2rem;
+  background: $color-background-light;
+  border: 1px solid $color-border;
+  border-radius: 6px;
+  color: $color-text;
+  font-size: 1rem;
+  appearance: none;
+
+  &:hover {
+    border-color: $color-accent;
+    background: $color-text;
+    color: $color-background-light;
+background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='12' height='7' viewBox='0 0 12 7' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23000000' stroke-width='2' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;}
+
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='12' height='7' viewBox='0 0 12 7' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23ffffff' stroke-width='2' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+}
+
+// Mixin for social icon styles
+@mixin social-icon-style {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+  margin-left: 0.5rem;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    fill: #000;
+  }
+}

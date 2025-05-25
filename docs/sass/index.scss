@@ -1,0 +1,194 @@
+@import "variables";
+@import "mixins";
+
+h2,
+h1 {
+  margin: 3rem;
+}
+.about {
+  margin: 3rem;
+  font-size: 150%;
+  background-color: $color-background-light;
+  padding: 2rem;
+}
+
+.aboutDiv {
+  width: 100vw; /* Full width of the viewport */
+  display: flex;
+  justify-content: flex-end; /* Aligns content to the right */
+  align-items: flex-end; /* Aligns items to the bottom */
+}
+
+.secondBlock {
+  max-width: 1200px; /* Maintain the max width */
+  width: 100%; /* Ensure it fills the available space */
+}
+
+#popular-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  justify-content: flex-start;
+
+  &::-webkit-scrollbar {
+    height: 10px;
+    border-radius: 4px;
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: lighten($color-accent, 35%);
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $color-accent;
+    border-radius: 4px;
+    background-clip: padding-box;
+  }
+
+  .card {
+    flex: 0 0 auto;
+    @include card-style;
+    transition: transform 0.3s ease;
+    width: 21%;
+
+    display: flex;
+    flex-direction: column;
+
+    .image {
+      width: 100%;
+      height: 350px;
+      background-size: cover;
+      background-position: center; // Обрезка снизу, начало сверху
+      flex-shrink: 0;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      flex-grow: 1;
+      font-family: "Montserrat", sans-serif;
+      padding: 0.75rem;
+
+      h3 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        color: $color-text;
+      }
+
+      .price {
+        color: $color-accent;
+        font-weight: bold;
+        margin-top: auto; // Пушит цену к низу info
+      }
+
+      button {
+        @include button-style;
+        border-radius: 4px;
+        margin-top: 0.5rem; // Между ценой и кнопкой
+      }
+    }
+  }
+}
+
+.main-photo {
+  height: 65vh;
+  background: linear-gradient(red, #1a1a1a);
+  display: flex;
+  justify-content: center;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: scale-down;
+  }
+}
+
+@media (max-width: 768px) {
+  #popular-carousel .card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 320px) {
+  #popular-carousel .card {
+    width: 80%;
+  }
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  padding: 2vh 0;
+}
+
+.slider-track {
+  display: flex;
+  align-items: center;
+  animation: scroll-slider 40s linear infinite;
+  width: max-content;
+}
+
+.slider-track img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-right: 1rem;
+  border-radius: 4px;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+// Планшеты
+
+@media (max-width: 768px) {
+  .slider-track {
+    animation-duration: 40s;
+  }
+
+  .slider-track img {
+    width: 300px;
+    height: 200px;
+  }
+  .card {
+    width: 40%;
+  }
+}
+
+// Мобильные
+@media (max-width: 480px) {
+  .slider-track {
+    animation-duration: 30s;
+  }
+
+  .slider-track img {
+    width: 220px;
+    height: 180px;
+  }
+  .card {
+    width: 700%;
+  }
+}
+
+@keyframes scroll-slider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@media (min-width: 720px) {
+  .about {
+    max-width: 70%;
+  }
+}

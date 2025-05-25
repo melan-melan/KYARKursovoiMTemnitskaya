@@ -1,0 +1,73 @@
+.accordion {
+  max-width: 1200px;
+  margin: 1rem auto;
+  min-height: 70vh;
+}
+.accordion .accordion-item {
+  border: 1px solid #444;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.accordion .accordion-item .accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.accordion .accordion-item .accordion-header.active {
+  background-color: #262626;
+}
+.accordion .accordion-item .accordion-header.active + .accordion-content {
+  max-height: 900px;
+  padding: 10px;
+}
+.accordion .accordion-item .accordion-content {
+  font-family: "Nunito", sans-serif;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  background-color: #333;
+  color: #ffffff;
+}
+.accordion .accordion-item .accordion-content ol {
+  list-style-type: decimal;
+  padding: 0.5rem 0rem 0.5rem 3rem;
+}
+.accordion .accordion-item .accordion-content p {
+  padding: 10px 10px 10px 50px;
+}
+.accordion .accordion-item .toggle-button {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+.accordion .accordion-item .accordion-header.active .toggle-button {
+  transform: rotate(180deg);
+}
+
+@media (min-width: 769px) {
+  .accordion-content {
+    font-size: large;
+  }
+}
+@media (max-width: 768px) {
+  .accordion-content {
+    font-size: medium;
+  }
+}
+@media (max-width: 480px) {
+  .accordion-content {
+    font-size: small;
+  }
+}/*# sourceMappingURL=help.css.map */
